@@ -1,4 +1,4 @@
-export const BASE_URL = `http://localhost:3000/api/`;
+export const BASE_URL = process.env.BASE_URL;
 export const SORTING_OPTIONS = [
     { label: "Oldest First", value: "createdAt-asc" },
     { label: "Newest First", value: "createdAt-dsc" },
